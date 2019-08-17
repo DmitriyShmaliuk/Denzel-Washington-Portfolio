@@ -1,0 +1,200 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto&display=swap';
+body {
+  width: 1445px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #ffffff;
+}
+body h2 {
+  font-size: 34px;
+  line-height: 40px;
+}
+body p {
+  line-height: 21px;
+}
+.head-section header {
+  width: 940px;
+}
+.head-section header nav {
+  height: 90px;
+  margin: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #828282;
+}
+.head-section header nav a {
+  color: #828282;
+  -webkit-text-decoration: none;
+  -ms-text-decoration: none;
+  -moz-text-decoration: none;
+  text-decoration: none;
+}
+.head-section header nav a:hover {
+  cursor: pointer;
+  color: #000000;
+}
+.head-section section {
+  height: 155px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.head-section section h1 {
+  width: 320px;
+  margin-bottom: 0px;
+  margin-right: 100px;
+  font-size: 47.3392px;
+}
+.head-section section p {
+  width: 250px;
+  margin-bottom: 10px;
+}
+.head-section img {
+  width: 940px;
+  height: 400px;
+  margin-top: 45px;
+}
+.about-section {
+  width: 1445px;
+  margin-top: 80px;
+  padding-top: 90px;
+  padding-bottom: 104px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f6f6;
+}
+.about-section section header h2 {
+  margin-bottom: 48px;
+}
+.about-section section .info {
+  width: 600px;
+  height: 220px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.about-section section .info p {
+  text-align: center;
+}
+.skils-section {
+  padding-top: 90px;
+  padding-bottom: 111px;
+  width: 1445px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skils-section header {
+  margin-bottom: 88px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.skils-section header h2 {
+  margin-top: 0px;
+}
+.skils-section header p {
+  margin-bottom: 0px;
+}
+.skils-section section {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+.skils-section section .card {
+  width: 170px;
+  height: 205px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.skils-section section .card img {
+  width: 90px;
+}
+.skils-section section .card p {
+  width: 108px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 16px;
+  color: #828282;
+}
+.portfolio-section {
+  width: 1445px;
+  background-color: #f6f6f6;
+}
+.portfolio-section header h2 {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  text-align: center;
+}
+.portfolio-section section {
+  padding-bottom: 38px;
+}
+.portfolio-section section .image-section {
+  width: 940px;
+  height: 510px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.portfolio-section section p {
+  margin-top: 40px;
+  margin-bottom: 90px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+.contact-section {
+  width: 1445px;
+  padding-top: 90px;
+  padding-bottom: 164.9px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contact-section section {
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-section section > p {
+  width: 280px;
+  text-align: center;
+}
+.contact-section section .button {
+  margin-bottom: 100px;
+  width: 180px;
+  height: 42px;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+}
+.contact-section section .icons {
+  width: 340px;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-section section .icons img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
